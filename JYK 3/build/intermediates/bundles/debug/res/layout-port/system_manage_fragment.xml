@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/setting_shop"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:layout_marginTop="@dimen/dp20"
+        android:text="@string/setting_shop" />
+
+    <TextView
+        android:id="@+id/setting_trans"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_trans" />
+
+    <TextView
+        android:id="@+id/setting_system"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_system" />
+
+    <TextView
+        android:id="@+id/setting_communication"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_communication" />
+
+    <TextView
+        android:id="@+id/setting_secret_key"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_secret_key" />
+
+    <TextView
+        android:id="@+id/setting_password"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_password" />
+
+    <TextView
+        android:id="@+id/setting_print_manage"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_print_manage" />
+    
+    <TextView
+        android:id="@+id/setting_qps_manage"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/common_qps_manage" />
+       
+    <TextView
+        android:id="@+id/setting_other"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_other" />
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/dp1"
+	    android:src="#d7d7d7"/>
+</LinearLayout>

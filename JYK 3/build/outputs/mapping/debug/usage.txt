@@ -1,0 +1,593 @@
+com.newland.base.ActivityManager:
+    17:17:public ActivityManager()
+    36:41:public static void delActivity(android.app.Activity)
+    48:53:public static android.app.Activity getTopActivity()
+    74:82:public static void finishAllActivityExcludeActivity(java.lang.String)
+    88:88:public static int size()
+com.newland.base.CommonThread:
+    159:159:public boolean isRunning()
+com.newland.base.dao.BaseDao:
+    441:452:private static boolean isBasicType(java.lang.Class)
+    470:473:public static java.lang.Class getBasicClass(java.lang.Class)
+    512:520:private java.lang.String getDBColumnType(java.lang.reflect.Field)
+    526:551:public void createTableIfNotExist()
+    554:556:public void dropTable()
+com.newland.base.util.AmountUtils:
+    13:13:public AmountUtils()
+    45:47:public static double fen2yuan(long,int)
+    55:57:public static java.lang.String fen2yuan(long)
+    61:62:public static void main(java.lang.String[])
+com.newland.base.util.AndroidTools:
+    private static android.net.ConnectivityManager connectivityManager
+    43:43:public AndroidTools()
+    47:50:private static android.net.NetworkInfo getNetworkInfo(android.content.Context)
+    59:64:public static boolean isHaveInternet(android.content.Context)
+    74:79:public static boolean isWifiConnect(android.content.Context)
+    88:93:public static boolean isMobileConnect(android.content.Context)
+    125:138:public static boolean isInBackground(android.content.Context)
+    146:147:public static void reStartApp(android.content.Context)
+    156:161:public static void reStartApp(android.content.Context,long)
+    222:232:public static void setStatusBarVisiable(android.app.Activity,boolean)
+com.newland.base.util.CommunicationUtils:
+    private static final int CDMA
+    private static final int GPRS
+    private static final int WIFI
+    private static final int CM
+    private static final int CU
+    private static final int CT
+    18:18:public CommunicationUtils()
+    106:114:public static java.lang.String getPreferWifi(android.content.Context)
+    377:377:public static java.lang.String getName()
+    385:386:public static void setName(java.lang.String)
+    412:412:public static java.lang.String getMcc()
+    420:421:public static void setMcc(java.lang.String)
+    429:429:public static java.lang.String getMnc()
+    437:438:public static void setMnc(java.lang.String)
+com.newland.base.util.DisplayUtils:
+    14:14:public DisplayUtils()
+    24:25:public static int px2dip(android.content.Context,float)
+    50:51:public static int px2sp(android.content.Context,float)
+    63:64:public static int sp2px(android.content.Context,float)
+    75:76:public static int px2dip(android.content.Context,int)
+    114:115:public static int sp2px(android.content.Context,int)
+    149:150:public static void setLucency(android.widget.TextView)
+com.newland.base.util.FileUtils:
+    39:39:public FileUtils()
+    54:66:public static void write(int,byte[],java.lang.String)
+    74:75:public static boolean isExternalStorageMounted()
+    82:123:public static boolean isSdcardNormal()
+    134:142:public static long getAvailableRamSize(android.content.Context)
+    151:162:public static long getTotalRamSize()
+    172:180:public static long getAvailableRomSize()
+    190:198:public static long getTotalRomSize()
+    208:218:public static long getAvailableExternalMemorySize()
+    228:238:public static long getTotalExternalMemorySize()
+    248:266:public static java.lang.String format(double)
+    276:289:public static long getFileTotalSize(java.io.File)
+    298:317:public static boolean makeDir(java.lang.String)
+    327:363:public static boolean copyDir(java.io.File,java.io.File)
+    373:415:public static boolean copyFile(java.io.File,java.io.File)
+    518:533:public static byte[] readFileByBytes(java.io.File)
+    546:561:public static byte[] readFileByBytes(java.lang.String)
+    577:592:public static void writeFileByBytes(java.io.File,byte[],boolean)
+    603:618:public static char[] readFileByChars(java.io.File)
+    625:637:public static void writeFileByChars(java.io.File,char[],boolean)
+    649:671:public static java.lang.String readFileByLines(java.io.File)
+    686:704:public static java.lang.String readFileByLines2(java.io.File)
+    720:734:public static void writeFileByString(java.io.File,java.lang.String,boolean)
+    744:776:public static void upZipIncType(java.lang.String,java.lang.String)
+    785:816:public static void upZip(java.lang.String,java.lang.String)
+    829:840:public static boolean renameFile(java.io.File,java.lang.String,java.lang.String)
+    850:859:public static java.io.File findFile(java.lang.String,java.lang.String)
+    869:878:public static java.io.File findApkFile(java.lang.String)
+    888:897:public static java.io.File findNLPFile(java.lang.String)
+    941:973:public static java.util.List getOfflinePackages(java.io.File)
+    986:997:public static java.lang.String getAssets(android.content.Context,java.lang.String)
+    1054:1070:public static java.lang.Object readObject(java.lang.String,java.lang.String)
+    1081:1099:public static void writeObject(java.lang.String,java.lang.Object,java.lang.String)
+com.newland.base.util.InputUtils:
+    public static final int STATUS_OPEN
+    public static final int STATUS_CLOSE
+    24:24:public InputUtils()
+    35:36:public static void hideKeyboard(android.view.Window)
+    47:57:public static void hideKeyboard(android.content.Context)
+    109:119:public static void timerHideKeyboard(android.view.View)
+    166:175:public static void hideSystemInput(android.widget.EditText)
+com.newland.base.util.InputUtils$2
+com.newland.base.util.MainIconUtils:
+    12:12:public MainIconUtils()
+com.newland.base.util.MessageUtils:
+    31:31:public MessageUtils()
+    45:59:public static android.app.Dialog showTipDialog(android.content.Context,java.lang.CharSequence,android.content.DialogInterface$OnClickListener,android.content.DialogInterface$OnClickListener)
+    94:103:public static com.newland.payment.ui.view.CommonDialog showCommonDialog(android.content.Context,int,boolean,android.view.View$OnClickListener)
+com.newland.base.util.MessageUtils$2
+com.newland.base.util.ToastUtils:
+    21:21:public ToastUtils()
+com.newland.base.util.TransUtils:
+    54:54:public TransUtils()
+com.newland.base.util.ViewUtils:
+    16:16:public ViewUtils()
+com.newland.base.util.log.LogcatHelper:
+    115:124:public boolean isAlive()
+com.newland.base.util.log.LogcatHelper$InnerClass:
+    53:53:private LogcatHelper$InnerClass()
+com.newland.emv.EmvAppModule$InnerInstance:
+    46:46:private EmvAppModule$InnerInstance()
+com.newland.emv.EmvApplication:
+    346:346:public java.lang.String getTrack2From57()
+com.newland.payment.BuildConfig
+com.newland.payment.aidl.IManagerService$Stub$Proxy:
+    77:77:public java.lang.String getInterfaceDescriptor()
+com.newland.payment.aidl.IPaymentService$Stub$Proxy:
+    153:153:public java.lang.String getInterfaceDescriptor()
+com.newland.payment.common.Const:
+    public static final java.lang.String YES
+    public static final java.lang.String NO
+    public static final int USER_NO_SIZE
+    public static final int PAGE_SIZE
+    public static final int SIGNATURE_MAX_LEN
+    public static final java.lang.String SIGNATURE_FAIL_FLAG
+    public static final java.lang.String APPS_NAME
+    9:9:public Const()
+com.newland.payment.common.Const$DIGITS
+com.newland.payment.common.Const$DataEncryptWKIndexConst
+com.newland.payment.common.Const$DateWheelType
+com.newland.payment.common.Const$DealRequest
+com.newland.payment.common.Const$DesMode
+com.newland.payment.common.Const$DeviceErrorCode
+com.newland.payment.common.Const$ElecSignType
+com.newland.payment.common.Const$FileConst
+com.newland.payment.common.Const$MKIndexConst
+com.newland.payment.common.Const$MacType
+com.newland.payment.common.Const$MacWKIndexConst
+com.newland.payment.common.Const$PathConst:
+    78:78:public Const$PathConst()
+com.newland.payment.common.Const$PinWKIndexConst
+com.newland.payment.common.Const$PrintStyleConst:
+    86:86:public Const$PrintStyleConst()
+com.newland.payment.common.Const$ScreenType
+com.newland.payment.common.Const$SettingDateType
+com.newland.payment.common.Const$SoundType
+com.newland.payment.common.Const$UserType
+com.newland.payment.common.Const$WorkKeyType
+com.newland.payment.common.ParamsConst
+com.newland.payment.common.ParamsTrans
+com.newland.payment.common.PrintType:
+    public static final java.lang.String PRINT_WATER_WITHOUT_ENGLISH
+    public static final java.lang.String PRINT_WATER_WITH_ENGLISH
+    3:3:public PrintType()
+com.newland.payment.common.ThirdTransType
+com.newland.payment.common.TransConst:
+    public static final long POS_MAX_AMOUNT
+    public static final int STEP_FINAL
+    public static final java.lang.String CURRENCY_CODE
+    4:4:public TransConst()
+com.newland.payment.common.TransConst$AccountStatus
+com.newland.payment.common.TransConst$CardBeanConst
+com.newland.payment.common.TransConst$CommonBeanConst
+com.newland.payment.common.TransConst$DateBeanConst
+com.newland.payment.common.TransConst$EmvStatus
+com.newland.payment.common.TransConst$FuncKeyFlag
+com.newland.payment.common.TransConst$InputInfoBeanConst
+com.newland.payment.common.TransConst$Maintk
+com.newland.payment.common.TransConst$MenuSelectBeanConst
+com.newland.payment.common.TransConst$MessageBeanConst
+com.newland.payment.common.TransConst$ReadcardType
+com.newland.payment.common.TransConst$ReverseReasonCode
+com.newland.payment.common.TransConst$SendStatus
+com.newland.payment.common.TransConst$SettlementTableTypeConst
+com.newland.payment.common.TransConst$TransDeal
+com.newland.payment.common.TransConst$TransStatus
+com.newland.payment.common.TransType
+com.newland.payment.common.dao.DbHelper:
+    public static final java.lang.String DB_NAME
+    public static final int DB_VERSION
+com.newland.payment.common.tools.AnswerCodeHelper:
+    21:21:public AnswerCodeHelper()
+com.newland.payment.common.tools.BankCodeHelper:
+    22:22:public BankCodeHelper()
+com.newland.payment.common.tools.PrintModelUtils:
+    49:49:public PrintModelUtils()
+com.newland.payment.common.tools.SocketHelper:
+    private static final long connectTime
+    581:581:public boolean isCommMode()
+    585:586:public void setCommMode(boolean)
+com.newland.payment.interfaces.OnConfirmListener
+com.newland.payment.interfaces.OnKeyBoardActionListener
+com.newland.payment.interfaces.OnKeyBoardValueChangeListener:
+    public abstract void onChange(java.lang.String)
+com.newland.payment.mvc.DuplicatedScriptResultException
+com.newland.payment.mvc.dao.BlackCardDao:
+    public abstract com.newland.payment.mvc.model.BlackCard findByCardBin(java.lang.String)
+    public abstract void revertSeq()
+    public abstract int getCount()
+com.newland.payment.mvc.dao.EmvFailWaterDao:
+    public abstract int deleteAll()
+    public abstract void revertSeq()
+    public abstract java.util.List findAll()
+com.newland.payment.mvc.dao.ReverseWaterDao:
+    public abstract int delete(long)
+    public abstract void revertSeq()
+com.newland.payment.mvc.dao.ScriptResultDao:
+    public abstract int deleteAll()
+    public abstract void revertSeq()
+com.newland.payment.mvc.dao.SettlementDao:
+    public abstract int deleteAll()
+com.newland.payment.mvc.dao.UserDao:
+    public abstract int delete(long)
+    public abstract int deleteAll()
+    public abstract void revertSeq()
+com.newland.payment.mvc.dao.WaterDao:
+    public abstract java.util.List findAll()
+    public abstract int deleteAll()
+    public abstract int deleteById(long)
+    public abstract void revertSeq()
+    public abstract java.util.List findByTransTypeAndTransStatus(int,int)
+com.newland.payment.mvc.dao.impl.BlackCardDaoImpl:
+    24:25:public com.newland.payment.mvc.model.BlackCard findByCardBin(java.lang.String)
+    35:35:public int getCount()
+com.newland.payment.mvc.dao.impl.CardBinADaoImpl:
+    27:27:public int deleteAll()
+    31:31:public int getCount()
+com.newland.payment.mvc.dao.impl.CardBinBDaoImpl:
+    27:27:public int deleteAll()
+    31:31:public int getCount()
+com.newland.payment.mvc.dao.impl.CardBinCDaoImpl:
+    31:31:public int getCount()
+com.newland.payment.mvc.dao.impl.UserDaoImpl:
+    35:35:public int deleteAll()
+    40:48:public void initUserData()
+com.newland.payment.mvc.dao.impl.WaterDaoImpl:
+    52:52:public int deleteById(long)
+    73:77:public java.util.List findByTransTypeAndTransStatus(int,int)
+com.newland.payment.mvc.service.BlackCardService:
+    public abstract com.newland.payment.mvc.model.BlackCard findByCardBin(java.lang.String)
+    public abstract long getCount()
+com.newland.payment.mvc.service.CommonDBService:
+    public abstract void recreateDatabase()
+com.newland.payment.mvc.service.EmvFailWaterService:
+    public abstract java.util.List findAll()
+com.newland.payment.mvc.service.SettlementService:
+    public abstract int addSettleNum_WK(java.lang.String,int)
+    public abstract int addSettleAmount_WK(java.lang.String,long)
+com.newland.payment.mvc.service.UserService:
+    public abstract long addUser(com.newland.payment.mvc.model.User)
+    public abstract int updateUserPassword(java.lang.String,java.lang.String,java.lang.String)
+    public abstract int updateManagerPassword(java.lang.String,java.lang.String)
+    public abstract int updateMasterPassword(java.lang.String,java.lang.String)
+    public abstract int deleteUser(java.lang.String)
+com.newland.payment.mvc.service.WaterService:
+    public abstract int deleteById(long)
+    public abstract int deleteByTrace(java.lang.String)
+    public abstract com.newland.payment.mvc.model.Water findLastWater()
+    public abstract java.util.List findAllLikeTrace(java.lang.String)
+    public abstract void findAll()
+    public abstract java.util.List findByTransTypeAndTransStatus(int,int)
+com.newland.payment.mvc.service.impl.BlackCardServiceImpl:
+    34:34:public com.newland.payment.mvc.model.BlackCard findByCardBin(java.lang.String)
+    44:44:public long getCount()
+com.newland.payment.mvc.service.impl.CardBinAServiceImpl:
+    17:19:public long addCardBin(java.lang.String)
+    23:23:public java.util.List findAll()
+    31:31:public long deleteAll()
+    35:35:public long getCount()
+com.newland.payment.mvc.service.impl.CardBinBServiceImpl:
+    23:23:public java.util.List findAll()
+    31:31:public long deleteAll()
+    35:35:public long getCount()
+com.newland.payment.mvc.service.impl.CardBinCServiceImpl:
+    24:24:public java.util.List findAll()
+    36:36:public long getCount()
+com.newland.payment.mvc.service.impl.CommonDBServiceImpl:
+    38:60:public void recreateDatabase()
+com.newland.payment.mvc.service.impl.EmvFailWaterServiceImpl:
+    55:55:public java.util.List findAll()
+com.newland.payment.mvc.service.impl.SettlementServiceImpl:
+    102:108:public int addSettleNum_WK(java.lang.String,int)
+    117:123:public int addSettleAmount_WK(java.lang.String,long)
+com.newland.payment.mvc.service.impl.WaterServiceImpl:
+    54:54:public int deleteById(long)
+    59:63:public int deleteByTrace(java.lang.String)
+    101:101:public java.util.List findAllLikeTrace(java.lang.String)
+    129:129:public java.util.List findByTransTypeAndTransStatus(int,int)
+    148:150:public void findAll()
+com.newland.payment.trans.RequireHandler$InnerClass:
+    61:61:private RequireHandler$InnerClass()
+com.newland.payment.trans.impl.Auth$Step
+com.newland.payment.trans.impl.AuthSale$Step
+com.newland.payment.trans.impl.AuthSaleOff$Step
+com.newland.payment.trans.impl.BalanceQuery$Step
+com.newland.payment.trans.impl.BonusLogin$Step
+com.newland.payment.trans.impl.ElecSignSend$Step
+com.newland.payment.trans.impl.JycMposDown$Step
+com.newland.payment.trans.impl.JycMposLoad$Step
+com.newland.payment.trans.impl.LogOut$Step
+com.newland.payment.trans.impl.Login$Step
+com.newland.payment.trans.impl.MagRefund$Step
+com.newland.payment.trans.impl.Reprint$Step
+com.newland.payment.trans.impl.Sale$Step
+com.newland.payment.trans.impl.Settle$Step
+com.newland.payment.trans.impl.VoidAuth$Step
+com.newland.payment.trans.impl.VoidAuthSale$Step
+com.newland.payment.trans.impl.VoidPartialSale$Step
+com.newland.payment.trans.impl.VoidSale$Step
+com.newland.payment.trans.impl.elecash.ECBalanceQuery$Step
+com.newland.payment.trans.impl.elecash.ECLoad$Step
+com.newland.payment.trans.impl.elecash.ECLoadDetail$Step
+com.newland.payment.trans.impl.elecash.ECRefund$Step
+com.newland.payment.trans.impl.elecash.ECTransDetail$Step
+com.newland.payment.trans.impl.elecash.ECVoidCashLoad$Step
+com.newland.payment.trans.impl.elecash.QPbocSale$Step
+com.newland.payment.trans.impl.payQuery$Step
+com.newland.payment.trans.manage.impl.CardBInCUpdate$Step
+com.newland.payment.trans.manage.impl.CardBinBUpdate$Step
+com.newland.payment.trans.manage.impl.Echo$Step
+com.newland.payment.trans.manage.impl.EmvBlackListDownload$Step
+com.newland.payment.trans.manage.impl.EmvParamsDownload$Step
+com.newland.payment.trans.manage.impl.ParamsTransmit$Step
+com.newland.payment.trans.manage.impl.RfParamsDownload$Step
+com.newland.payment.trans.manage.impl.StatusSend$Step
+com.newland.payment.trans.manage.impl.TmsParamsTransmit$Step
+com.newland.payment.ui.activity.App:
+    93:108:public static void checkMenu(java.util.List)
+com.newland.payment.ui.activity.BaseActivity:
+    public static final int STATUS_NONE
+    public static final int STATUS_CREATE
+    public static final int STATUS_START
+    public static final int STATUS_RESUME
+    public static final int STATUS_PAUSE
+    public static final int STATUS_STOP
+    public static final int STATUS_DESTROY
+    public static final int STATUS_RESTART
+    99:99:public int getStatus()
+com.newland.payment.ui.activity.MainActivity:
+    public static com.newland.payment.trans.AbstractBaseTrans TRANS
+    public android.support.v4.app.Fragment lastFragment
+    public android.support.v4.app.Fragment currentFragment
+    468:472:public java.lang.String getMainTitle()
+    570:571:public void pauseProgress()
+    682:683:public void setTransType(int)
+    687:687:public int getActivateState()
+    692:693:public void setActivateState(int)
+    702:703:public void setOutOrderNo(java.lang.String)
+com.newland.payment.ui.adapter.BaseListViewAdapter:
+    49:49:public boolean addAll(java.util.Collection)
+    58:58:public boolean removeAll(java.util.Collection)
+    65:66:public void clear()
+    74:78:public java.util.List copyList()
+com.newland.payment.ui.adapter.HolderUtils:
+    14:14:public HolderUtils()
+com.newland.payment.ui.bean.MenuSelectItem
+com.newland.payment.ui.bean.TransTotalBean
+com.newland.payment.ui.fragment.BaseFragment:
+    394:394:public android.view.View findViewById(int)
+com.newland.payment.ui.fragment.BillFragment:
+    private android.widget.TextView txtTitleECPurcher
+    private android.widget.TextView txtECPurcher
+    private java.lang.String strAmount
+com.newland.payment.ui.fragment.BlankFragment:
+    private android.widget.Button BtnReturnMain
+com.newland.payment.ui.fragment.CardFragment:
+    private static final int CARD_READ_COMFIRM
+    332:333:private void readTrackData(com.newland.pos.sdk.bean.CardBean)
+    339:345:protected boolean isIcCard(java.lang.String)
+com.newland.payment.ui.fragment.ChooseDateFragment:
+    public static final int TYPE_INDATE
+    public static final int TYPE_TRANSACTION
+com.newland.payment.ui.fragment.CommunicationFragment2:
+    320:363:private void dealCommHead(java.lang.String)
+com.newland.payment.ui.fragment.InputInfoFragment:
+    60:91:public InputInfoFragment(long)
+    94:96:public static com.newland.payment.ui.fragment.InputInfoFragment newInstance(com.newland.payment.trans.bean.InputInfoBean)
+com.newland.payment.ui.fragment.InputPinFragment:
+    android.widget.TextView tvTitle
+    210:212:public static com.newland.payment.ui.fragment.InputPinFragment newInstance(com.newland.pos.sdk.bean.PasswordBean)
+com.newland.payment.ui.fragment.InputPinFragment$MSG
+com.newland.payment.ui.fragment.InputPinFragment$PINSTATUS
+com.newland.payment.ui.fragment.InputPinOfflineFragment:
+    private android.widget.ImageView ivAmount
+    private android.widget.TextView tvCard
+    private android.widget.ImageView ivCard
+    231:231:private android.os.Handler getIm81PinInputHandler()
+    33:33:static synthetic java.lang.StringBuffer access$200(com.newland.payment.ui.fragment.InputPinOfflineFragment)
+com.newland.payment.ui.fragment.InputPinOfflineFragment$2
+com.newland.payment.ui.fragment.InputPinOfflineFragment$MSG
+com.newland.payment.ui.fragment.LoginFragment:
+    409:409:public java.lang.Boolean getMainManagerLoginFlag()
+    412:413:public void setMainManagerLoginFlag(java.lang.Boolean)
+com.newland.payment.ui.fragment.MessageTipFragment:
+    private int beep
+com.newland.payment.ui.fragment.MposLoadFragment:
+    android.widget.TextView txtLoadKeyInfoText
+com.newland.payment.ui.fragment.NewBalanceReadCardFragment:
+    169:175:protected boolean isIcCard(java.lang.String)
+com.newland.payment.ui.fragment.NewInputPinFragment$MSG
+com.newland.payment.ui.fragment.NewInputPinFragment$PINSTATUS
+com.newland.payment.ui.fragment.NewRefundReadCardFragment:
+    private java.lang.String content
+    private android.app.Dialog dialog
+    private static final int CARD_READ_COMFIRM
+    253:259:protected boolean isIcCard(java.lang.String)
+    355:397:public java.lang.String inputOldTransDate()
+com.newland.payment.ui.fragment.NewRefundReadCardFragment$3
+com.newland.payment.ui.fragment.NewRefundReadCardFragment$4
+com.newland.payment.ui.fragment.NewSaleReadCardFragment:
+    private java.lang.String content
+    private android.app.Dialog dialog
+    private static final int CARD_READ_COMFIRM
+    222:228:protected boolean isIcCard(java.lang.String)
+com.newland.payment.ui.fragment.NewVoidSaleReadCardFragment:
+    private java.lang.String content
+    private android.app.Dialog dialog
+    private static final int CARD_READ_COMFIRM
+    220:226:protected boolean isIcCard(java.lang.String)
+com.newland.payment.ui.fragment.OperatorChangePwdFragment:
+    200:210:public java.lang.Boolean IsHasNum(java.lang.String)
+com.newland.payment.ui.fragment.OperatorDelAddFragment:
+    android.widget.RelativeLayout showLayout
+    276:276:public java.lang.String getOperatorNo()
+com.newland.payment.ui.fragment.OperatorManagementFragment:
+    android.widget.TextView btnMainChanggePwd
+    android.widget.TextView btnOperatorAdd
+    android.widget.TextView btnOperatorDel
+    android.widget.TextView btnOperatorSearch
+com.newland.payment.ui.fragment.OperatorPasswordFragment:
+    private int beep
+com.newland.payment.ui.fragment.PbocLogItemFragment:
+    android.widget.TextView txtMerchantNo
+com.newland.payment.ui.fragment.PrintFragment:
+    726:727:public java.lang.String getPrintWaterWithEnglishData(com.newland.payment.mvc.model.Water,com.newland.payment.common.PrintType$PrintWaterType,boolean)
+    1229:1255:private void sleepHalfMiniter()
+    67:67:static synthetic boolean access$100(com.newland.payment.ui.fragment.PrintFragment)
+com.newland.payment.ui.fragment.PrintFragment$24
+com.newland.payment.ui.fragment.SettingOtherFragment:
+    android.widget.TextView txtSettingOtherDownLoad
+    android.widget.TextView txtSettingOtherElecsign
+    55:56:public SettingOtherFragment(long)
+com.newland.payment.ui.fragment.SettingQPSFragment:
+    private com.newland.payment.ui.listener.AbstractKeyBoardListener keyBoardListener
+com.newland.payment.ui.fragment.SignatureFragment:
+    private static final java.lang.String JBIG_END
+    private static final java.lang.String PNG_END
+    private static final int MAX_LEN
+com.newland.payment.ui.fragment.TransSelectListFragment:
+    android.widget.LinearLayout llRight
+com.newland.payment.ui.fragment.TransSelectListItemFragment:
+    private android.widget.TextView txtRepeal
+    private android.widget.TextView txtResultLogo
+    private android.widget.TextView txtResultText
+    private android.widget.Button BtnReturnMain
+com.newland.payment.ui.fragment.TransTotalListFragment:
+    182:188:public varargs long getTotalAmount(java.lang.String[])
+    200:206:public varargs int getTotalCount(java.lang.String[])
+com.newland.payment.ui.listener.IKeyBoardListener:
+    public abstract void onChangeText(java.lang.String)
+com.newland.payment.ui.listener.onTimeOutListener
+com.newland.payment.ui.view.CommonDialog:
+    294:297:private void resetTimeOut()
+com.newland.payment.ui.view.CommonInputDialog:
+    137:153:public void setMiddleListener(int,android.view.View$OnClickListener)
+    189:192:public void setTitle(java.lang.String)
+    202:206:public void setContent(int)
+    219:222:public void setWidth(int)
+com.newland.payment.ui.view.CommonInputDialog$4
+com.newland.payment.ui.view.CustomScrollView:
+    49:50:public void stopScroll()
+    55:56:public void startScroll()
+    59:59:public boolean isScroll()
+com.newland.payment.ui.view.CustomViewPager:
+    24:25:public void stopScroll()
+    30:31:public void startScroll()
+    34:34:public boolean isScroll()
+com.newland.payment.ui.view.DotViewPager:
+    private java.util.Timer timer
+    151:153:public void selDotResource(int,int)
+    197:199:public void onDestroy()
+com.newland.payment.ui.view.HandWriteView:
+    private static final float PAINT_SIZE
+    private static final int WIDTH
+    private static final int HEIGHT
+com.newland.payment.ui.view.KeyboardLockScreen:
+    61:119:private void initClickEvent(android.view.View)
+com.newland.payment.ui.view.KeyboardNumber:
+    public static final int K_0
+    public static final int K_1
+    public static final int K_2
+    public static final int K_3
+    public static final int K_4
+    public static final int K_5
+    public static final int K_6
+    public static final int K_7
+    public static final int K_8
+    public static final int K_9
+    public static final int K_STAR
+    public static final int K_WELL
+    public static final int K_CANCEL
+    public static final int K_CLEAN
+    public static final int K_BACKSPACE
+    public static final int K_ENTER
+    public static final int K_DOT
+com.newland.payment.ui.view.KeyboardPassword:
+    60:115:private void initClickEvent(android.view.View)
+com.newland.payment.ui.view.OperatorNoListDialog:
+    18:20:public OperatorNoListDialog(android.content.Context,int,java.util.ArrayList)
+com.newland.payment.ui.view.OperatorPasswordDialog:
+    29:58:public OperatorPasswordDialog(android.content.Context,int,int,java.lang.String)
+    29:71:public OperatorPasswordDialog(android.content.Context,int)
+com.newland.payment.ui.view.OperatorPasswordFragmentDialog:
+    34:64:public OperatorPasswordFragmentDialog(android.content.Context,int,int,java.lang.String)
+    34:77:public OperatorPasswordFragmentDialog(android.content.Context,int)
+    159:159:public java.lang.String getPassword()
+    188:189:public void setMTitle(java.lang.String)
+com.newland.payment.ui.view.PasswordInputView:
+    private com.newland.payment.interfaces.OnKeyBoardActionListener confirmListener
+com.newland.payment.ui.view.SettingChooseView:
+    338:360:public void initCommon(int,int,int,android.view.View$OnClickListener,android.view.View$OnClickListener)
+com.newland.payment.ui.view.SettingChooseView$12
+com.newland.payment.ui.view.SettingChooseView$13
+com.newland.payment.ui.view.SettingIpView:
+    138:139:public void onKeyClick(int)
+com.newland.payment.ui.view.SystemStatusManager:
+    public static final int DEFAULT_TINT_COLOR
+    private boolean mNavBarTintEnabled
+    105:109:public void setNavigationBarTintEnabled(boolean)
+    112:114:public void setTintColor(int)
+    117:119:public void setTintResource(int)
+    122:124:public void setTintDrawable(android.graphics.drawable.Drawable)
+    127:129:public void setTintAlpha(float)
+    132:135:public void setStatusBarTintColor(int)
+    145:148:public void setStatusBarTintDrawable(android.graphics.drawable.Drawable)
+    152:155:public void setStatusBarAlpha(float)
+    158:161:public void setNavigationBarTintColor(int)
+    164:167:public void setNavigationBarTintResource(int)
+    171:174:public void setNavigationBarTintDrawable(android.graphics.drawable.Drawable)
+    178:181:public void setNavigationBarAlpha(float)
+    184:184:public com.newland.payment.ui.view.SystemStatusManager$SystemBarConfig getConfig()
+    188:188:public boolean isStatusBarTintEnabled()
+    192:192:public boolean isNavBarTintEnabled()
+com.newland.payment.ui.view.SystemStatusManager$SystemBarConfig:
+    private static final java.lang.String STATUS_BAR_HEIGHT_RES_NAME
+    private static final java.lang.String NAV_BAR_HEIGHT_RES_NAME
+    private static final java.lang.String NAV_BAR_HEIGHT_LANDSCAPE_RES_NAME
+    private static final java.lang.String NAV_BAR_WIDTH_RES_NAME
+    private static final java.lang.String SHOW_NAV_BAR_RES_NAME
+    353:353:public int getActionBarHeight()
+    369:369:public int getPixelInsetTop(boolean)
+    374:377:public int getPixelInsetBottom()
+    382:385:public int getPixelInsetRight()
+com.newland.payment.ui.view.passwordedittext.GridPasswordView:
+    private static final int DEFAULT_PASSWORDLENGTH
+    private static final int DEFAULT_TEXTSIZE
+    private static final java.lang.String DEFAULT_TRANSFORMATION
+    private static final java.lang.String DEFAULT_LINECOLOR
+    private static final java.lang.String DEFAULT_GRIDCOLOR
+    372:374:public void togglePasswordVisibility()
+com.newland.payment.ui.view.passwordedittext.PasswordView
+com.newland.payment.ui.view.wheelview.ArrayWheelAdapter
+com.newland.payment.ui.view.wheelview.DateWheelView:
+    106:107:public void addOnDateWheelViewChangeListener(com.newland.payment.ui.view.wheelview.OnDateWheelViewChangeListener)
+com.newland.payment.ui.view.wheelview.NumericWheelAdapter:
+    public static final int DEFAULT_MAX_VALUE
+    private static final int DEFAULT_MIN_VALUE
+com.newland.payment.ui.view.wheelview.TimeWheelView:
+    168:169:public void addOnDateWheelViewChangeListener(com.newland.payment.ui.view.wheelview.OnDateWheelViewChangeListener)
+com.newland.payment.ui.view.wheelview.WheelView:
+    private static final int SCROLLING_DURATION
+    private static final int MIN_DELTA_FOR_SCROLLING
+    private static final int VALUE_TEXT_COLOR
+    private static final int ITEMS_TEXT_COLOR
+    private static final int ADDITIONAL_ITEM_HEIGHT
+    private static final int TEXT_SIZE
+    private static final int ITEM_OFFSET
+    private static final int ADDITIONAL_ITEMS_SPACE
+    private static final int LABEL_OFFSET
+    private static final int PADDING
+    private static final int DEF_VISIBLE_ITEMS
+    268:269:public void removeChangingListener(com.newland.payment.ui.view.wheelview.OnWheelChangedListener)
+    292:293:public void addScrollingListener(com.newland.payment.ui.view.wheelview.OnWheelScrollListener)
+    302:303:public void removeScrollingListener(com.newland.payment.ui.view.wheelview.OnWheelScrollListener)
+    387:387:public boolean isCyclic()
+com.newland.usb.TransPort:
+    public abstract int Available()
+com.newland.usb.USBPortImpl:
+    49:49:public int Available()

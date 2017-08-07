@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="newland">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/newland.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

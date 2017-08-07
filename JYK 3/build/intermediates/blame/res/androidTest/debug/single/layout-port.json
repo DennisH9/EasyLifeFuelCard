@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_date_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_date_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\input_pin_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\input_pin_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_switch_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_switch_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\common_time_dialog.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\common_time_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_trans_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_trans_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_other_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_other_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\new_input_info_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\new_input_info_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_trans_other_control.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_trans_other_control.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\login_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\login_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\check_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\check_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\card_remind_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\card_remind_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\card_two_remind_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\card_two_remind_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\common_select_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\common_select_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\dialog_confirm.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\dialog_confirm.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\card_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\card_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\shop_manager_reset_flag_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\shop_manager_reset_flag_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\confirm_info_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\confirm_info_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\system_manage_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\system_manage_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\choose_date_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\choose_date_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\keyboard_number.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\keyboard_number.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_password_manager_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_password_manager_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\operator_no_list_dialog.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\operator_no_list_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\pboc_log_item_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\pboc_log_item_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_offline_up_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_offline_up_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\card_three_remind_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\card_three_remind_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\trans_select_list_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\trans_select_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_edit_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_edit_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\transaction_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\transaction_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_mpos_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_mpos_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\ec_load_log_list_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\ec_load_log_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\trans_select_list_item_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\trans_select_list_item_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\common_date_dialog.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\common_date_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_other_download_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_other_download_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\manager_password_dialog.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\manager_password_dialog.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\keyboard_lock_screen.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\keyboard_lock_screen.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\main_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\main_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\launch_activity.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\launch_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\new_input_pin_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\new_input_pin_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\common_dialog_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\common_dialog_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\layout_consume_readcard.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\layout_consume_readcard.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\operator_del_add_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\operator_del_add_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_system_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_system_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\item_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\item_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\operator_change_pwd_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\operator_change_pwd_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\amount_edit_text.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\amount_edit_text.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\signatrue_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\signatrue_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\main_activity.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\main_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\textview.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\textview.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\shop_manager_login_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\shop_manager_login_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_ip_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_ip_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_print_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_print_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\pboc_log_list_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\pboc_log_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_des_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_des_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\operator_management_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\operator_management_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_communication_wifi_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_communication_wifi_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\input_money_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\input_money_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\balance_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\balance_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\input_info_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\input_info_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_switch_list_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_switch_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\layout_balance_readcard.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\layout_balance_readcard.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_other_elec_sign_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_other_elec_sign_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\ip_edit_text.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\ip_edit_text.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\keyboard_password.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\keyboard_password.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\trans_total_list_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\trans_total_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\layout_consume_info.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\layout_consume_info.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_mpos_load_key_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_mpos_load_key_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_time_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_time_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_secret_key_head_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_secret_key_head_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\switch_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\switch_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_secret_key_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_secret_key_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\layout_refund_readcard.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\layout_refund_readcard.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_system_other_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_system_other_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_trans_switch_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_trans_switch_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_keyboard_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_keyboard_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_communication_cdma_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_communication_cdma_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\blank_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\blank_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\divider.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\divider.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_qps_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_qps_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_switch_item.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_switch_item.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_resend_times_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_resend_times_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\input_pin_offline_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\input_pin_offline_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\date_wheel_view_2.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\date_wheel_view_2.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\ec_load_log_item_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\ec_load_log_item_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\common_input_dialog_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\common_input_dialog_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\show_trans_state_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\show_trans_state_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_print_setting_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_print_setting_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\lock_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\lock_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\gridpasswordview.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\gridpasswordview.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_print_params_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_print_params_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_shop_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_shop_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\progress_contain_cutdown_text_tip.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\progress_contain_cutdown_text_tip.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\main_menu_item.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\main_menu_item.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_choose_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_choose_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\layout_void_consume_readcard.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\layout_void_consume_readcard.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_communication_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_communication_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_print_other_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_print_other_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_communication_gprs_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_communication_gprs_fragment.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\view_number_keyboard.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\view_number_keyboard.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\loading_view.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\loading_view.xml"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-port\\setting_flash_card_fragment.xml",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\layout-port\\setting_flash_card_fragment.xml"
+    }
+]

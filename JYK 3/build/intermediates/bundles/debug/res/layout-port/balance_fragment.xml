@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:stretchColumns="*" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/dp28"
+            android:layout_height="@dimen/setting_item_height_91"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp14"
+            android:text="@string/common_card_no"
+            android:textColor="#333"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:id="@+id/txt_card_no"
+            android:layout_width="@dimen/dp110"
+            android:layout_height="@dimen/setting_item_height_91"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="1111111111111111"
+            android:textColor="#333"
+            android:textSize="@dimen/sp16" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:layout_span="2"
+            android:scaleType="centerCrop"
+            android:src="#6d6d6d" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/dp28"
+            android:layout_height="@dimen/setting_item_height_91"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp14"
+            android:text="@string/balance_transaction_type"
+            android:textColor="#333"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:layout_width="@dimen/dp110"
+            android:layout_height="@dimen/setting_item_height_91"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/common_check_balance"
+            android:textColor="#333"
+            android:textSize="@dimen/sp16" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:layout_span="2"
+            android:scaleType="centerCrop"
+            android:src="#6d6d6d" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="@dimen/dp28"
+            android:layout_height="@dimen/setting_item_height_91"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp14"
+            android:text="@string/balance_money"
+            android:textColor="#333"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:id="@+id/txt_money"
+            android:layout_width="@dimen/dp110"
+            android:layout_height="@dimen/setting_item_height_91"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text="￥9999"
+            android:textColor="#ee5757"
+            android:textSize="@dimen/sp16" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:layout_span="2"
+            android:scaleType="centerCrop"
+            android:src="#6d6d6d" />
+    </TableRow>
+
+</TableLayout>

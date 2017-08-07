@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <com.newland.payment.ui.view.SettingEditView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        	android:layout_marginTop="@dimen/setting_margin_top">
+    </com.newland.payment.ui.view.SettingEditView>
+
+    <com.newland.payment.ui.view.SettingEditView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.newland.payment.ui.view.SettingEditView>
+
+    <com.newland.payment.ui.view.SettingEditView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.newland.payment.ui.view.SettingEditView>
+
+    <com.newland.payment.ui.view.SettingEditView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.newland.payment.ui.view.SettingEditView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0"
+        android:layout_weight="1" />
+
+    <com.newland.payment.ui.view.KeyboardNumber
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+    </com.newland.payment.ui.view.KeyboardNumber>
+
+</LinearLayout>

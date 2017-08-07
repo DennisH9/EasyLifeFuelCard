@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/h_pb_timeout_progress">
+	<ImageView 
+	    android:id="@+id/iv_value"
+	    android:layout_width="@dimen/dp0"
+	    android:layout_height="match_parent"
+	    android:background="@color/pb_timeout_bg"
+	    android:layout_gravity="right"
+	    />
+</FrameLayout>

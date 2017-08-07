@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_setting_other_download_echo_test"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        	android:layout_marginTop="@dimen/setting_margin_top"
+        android:text="@string/setting_other_download_echo_test" />
+
+    <TextView
+        android:id="@+id/txt_setting_other_download_parameter_pass"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_other_download_parameter_pass" />
+
+    <TextView
+        android:id="@+id/txt_setting_other_download_ic_public_key"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_other_download_ic_public_key" />
+
+    <TextView
+        android:id="@+id/txt_setting_other_download_ic_param"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_other_download_ic_param" />
+
+    <TextView
+        android:id="@+id/txt_setting_other_download_blacklist"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_other_download_blacklist" />
+
+    <TextView
+        android:id="@+id/txt_setting_other_download_state_upload"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_other_download_state_upload" />
+    
+    
+    <TextView
+        android:id="@+id/txt_setting_other_download_rf_param"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_download_rf_params" />
+    
+    <TextView
+        android:id="@+id/txt_setting_other_download_bin_b_update"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_other_download_bin_b_update" />
+    
+    <TextView
+        android:id="@+id/txt_setting_other_download_bin_c_update"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_other_download_bin_c_update" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:src="#d7d7d7" />
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp34"
+        android:layout_marginLeft="@dimen/dp14"
+        android:layout_marginRight="@dimen/dp14"
+        android:layout_marginTop="@dimen/dp44" >
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_inputbox"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/voucher_input"
+            android:paddingLeft="@dimen/dp10" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/dp7"
+            android:src="@drawable/common_seach" />
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" 
+        android:layout_marginTop="@dimen/dp36"
+        android:paddingLeft="@dimen/dp33"
+        android:paddingRight="@dimen/dp30"
+        android:background="#fff">
+        <TableRow android:layout_marginTop="@dimen/dp16">
+            <!-- 交易总汇 -->
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="@dimen/sp18"
+				android:text="@string/transaction_trading_company"/>
+            
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp12">
+            <ImageView android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_span="2"
+                android:src="#b0b0b0"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp12">
+            <!-- 消费总计 -->
+
+            <TextView
+                style="@style/transaction_total_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/transaction_expense_total" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+                android:layout_gravity="right"
+				android:text="1"/>
+            
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <!-- 笔数 -->
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+				android:text="@string/transaction_total"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+                android:layout_gravity="right"
+				android:text="1"/>
+            
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <!-- 金额 -->
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+				android:text="@string/transaction_money"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+                android:layout_gravity="right"
+				android:text="1"/>
+            
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp12">
+            <ImageView android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_span="2"
+                android:src="#b0b0b0"/>
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp12">
+            <!-- 退货总计 -->
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+				android:text="@string/transaction_returns_total"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+                android:layout_gravity="right"
+				android:text="1"/>
+            
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <!-- 笔数 -->
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+				android:text="@string/transaction_total"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+                android:layout_gravity="right"
+				android:text="1"/>
+            
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17"
+            android:layout_marginBottom="@dimen/dp30">
+            <!-- 金额 -->
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+				android:text="@string/transaction_money"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				style="@style/transaction_total_item"
+                android:layout_gravity="right"
+				android:text="1"/>
+            
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

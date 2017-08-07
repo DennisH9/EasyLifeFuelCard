@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_clear_reverse_flag"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        	android:layout_marginTop="@dimen/setting_margin_top"
+        android:text="@string/common_clear_reverse_flag" />
+
+    <TextView
+        android:id="@+id/txt_set_no_sign"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/common_set_no_sign" />
+
+    <TextView
+        android:id="@+id/txt_set_signed"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/common_set_signed" />
+    
+     <TextView
+        android:id="@+id/txt_clear_script_flag"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/common_clear_shell_flag" />
+     
+      <TextView
+        android:id="@+id/txt_clear_emv"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/common_clear_emv" />
+      
+      <TextView
+        android:id="@+id/txt_set_emv"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/common_set_emv" />
+      
+      <com.newland.payment.ui.view.SettingSwitchView
+          android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/dp1"
+	    android:src="#d7d7d7"/>
+</LinearLayout>

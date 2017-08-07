@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/common_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+		
+            <com.newland.payment.ui.view.SettingEditView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+        	android:layout_marginTop="@dimen/setting_margin_top" />
+        <com.newland.payment.ui.view.SettingEditView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_item_height_91"/>
+
+        <com.newland.payment.ui.view.SettingEditView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_item_height_91" />
+        
+        
+        <com.newland.payment.ui.view.SettingEditView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_item_height_91" />
+        
+    <TextView
+        android:id="@+id/txt_setting_system_keypoard_password"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_system_keypoard_password" />
+        
+    <TextView
+        android:id="@+id/txt_setting_system_now_time"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_system_now_time" />
+    
+     <TextView
+        android:id="@+id/txt_setting_system_flash_card"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_system_flash_card" />
+     
+    <TextView
+        android:id="@+id/txt_setting_system_other"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_system_other" />
+    </LinearLayout>
+
+    <com.newland.payment.ui.view.KeyboardNumber
+        android:id="@+id/key_board_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="gone" />
+</FrameLayout>

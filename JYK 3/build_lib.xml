@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="nlsdk" default="main" basedir=".">
+<property name="project.name" value="nlsdk_base" />
+<property name="build.classes" value="bin/classes" />
+<property name="version" value="1.1.1" />
+	<target name="main">
+	    <jar destfile="nlsdk.jar">
+			<fileset dir="${build.classes}" includes="com/newland/pos/sdk/*/*.*"/>
+			<manifest>
+				<attribute name="version" value="${version}"/>
+			</manifest>
+		</jar>	
+	    
+	</target>
+</project>

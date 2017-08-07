@@ -1,0 +1,90 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+//        compile files('libs/android-support-v4.jar')
+//        compile files('libs/commons-lang-2.4.jar')
+//        compile files('libs/EmvJNIService-2.0.0.jar')
+//        compile files('libs/mtms-puls-2.0.3.jar')
+//        compile files('libs/newland.jar')
+//        compile files('libs/nineoldandroids-2.4.0-with-sources.jar')
+//        compile files('libs/nlpaymentsdk-1.0.7.jar')
+//        compile files('libs/org.bouncycastle.jar')
+//        compile files('libs/xutils-b21559d74a-with-sources-unofficial-modified.jar')
+    }
+}
+apply plugin: 'com.android.library'
+
+dependencies {
+//    compile fileTree(include: '*.jar', dir: 'libs')
+    provided files('libs/android-support-v4.jar')
+    provided files('libs/org.bouncycastle.jar')
+    provided files('libs/nineoldandroids-2.4.0-with-sources.jar')
+//    compile files('libs/android-support-v4.jar')
+//    compile files('libs/org.bouncycastle.jar')
+//    compile files('libs/nineoldandroids-2.4.0-with-sources.jar')
+    compile files('libs/commons-lang-2.4.jar')
+    compile files('libs/EmvJNIService-2.0.0.jar')
+    compile files('libs/mtms-puls-2.0.3.jar')
+    compile files('libs/newland.jar')
+    compile files('libs/nlpaymentsdk-1.0.7.jar')
+    compile files('libs/xutils-b21559d74a-with-sources-unofficial-modified.jar')
+
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '25.0.0'
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            sourceSets.main.jniLibs.srcDirs = ['libs']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            versionNameSuffix "-debug"
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}

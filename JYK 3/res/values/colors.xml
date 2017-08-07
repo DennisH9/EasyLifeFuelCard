@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_bg">#f0f0f0</color>
+    <color name="transparent">#00000000</color>
+	<color name="white">#fff</color>
+
+	<color name="pb_timeout_bg">#a8a8a8</color>
+
+
+    <color name="mainColor">#59cac2</color>
+    <color name="mainBgColor">#e9efef</color>
+
+</resources>

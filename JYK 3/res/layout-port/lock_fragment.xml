@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg">
+
+    <LinearLayout
+        android:id="@+id/v_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/login_frame_RL_marging"
+        android:paddingRight="@dimen/login_frame_RL_marging">
+		<TextView
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp48"
+            android:layout_marginTop="@dimen/dp14"
+            android:gravity="center"
+            android:text="@string/lock_screen_input_password"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp20" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp14"
+            android:background="@null"  >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/login_icon_user" />
+
+            <EditText
+                android:id="@+id/et_user"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp46"
+                android:textColor="#FFF"
+                android:textSize="@dimen/sp22"
+                android:background="@null" />
+            
+            
+        </FrameLayout>
+		<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:background="@drawable/login_line" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp2"
+            android:background="@null" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/login_icon_password" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp46"
+                android:textColor="#FFF"
+                android:background="@null"
+                android:textSize="@dimen/sp33"
+            android:password="true"/>
+        </FrameLayout>
+		<ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:background="@drawable/login_line" />
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp48"
+            android:layout_marginTop="@dimen/dp38"
+            android:background="@drawable/login_btn"
+            android:gravity="center"
+            android:text="@string/login_login"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp20" />
+        <!-- 占位用 -->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp26"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:textColor="#a2a2a2"
+                android:textSize="@dimen/dp18" />
+            <TextView
+                android:id="@+id/txt_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:textColor="#a2a2a2"
+                android:textSize="@dimen/sp16" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.newland.payment.ui.view.KeyboardNumber
+        android:id="@+id/key_board_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" 
+        android:visibility="gone"/>
+
+</FrameLayout>

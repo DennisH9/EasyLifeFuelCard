@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_marginBottom="4dp"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/dp92"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text=" 操作员号"
+                android:textColor="#333"
+                android:textSize="@dimen/dp20" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:background="#fff"
+                android:textSize="@dimen/dp20" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="#C1C5CB" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/dp92"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text=" 原  密  码"
+                android:textColor="#333"
+                android:textSize="@dimen/dp20" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:background="#fff"
+                android:hint="请输入原密码"
+                android:textSize="@dimen/dp20" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="#C1C5CB" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/dp92"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text=" 新  密  码"
+                android:textColor="#333"
+                android:textSize="@dimen/dp20" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:background="#fff"
+                android:hint="请输入新密码"
+                android:textSize="@dimen/dp20" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="#C1C5CB" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="@dimen/dp92"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text=" 新  密  码"
+                android:textColor="#333"
+                android:textSize="@dimen/dp20" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:background="#fff"
+                android:hint="再次输入新密码"
+                android:textSize="@dimen/dp20" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="#C1C5CB" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.newland.payment.ui.view.KeyboardNumber
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

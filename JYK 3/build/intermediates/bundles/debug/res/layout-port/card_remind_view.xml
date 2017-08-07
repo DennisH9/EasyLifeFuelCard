@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h_swipe_card_demo_bg"
+    android:orientation="vertical" >
+
+    
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dp14"
+        android:layout_marginTop="@dimen/dp10"
+        android:src="@drawable/swipe_card_cross" />
+
+    <TextView android:id="@+id/tv_tip_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp14"
+        android:text="@string/swipe_card_how_to_input"
+        android:textSize="@dimen/sp26"
+        android:textColor="#bebebe"  />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:layout_marginLeft="@dimen/dp14"
+        android:layout_marginRight="@dimen/dp14"
+        android:layout_marginTop="@dimen/dp18"
+        android:src="#bebebe" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp38"
+        android:src="@drawable/swipe_card_1"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/iv_remind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp35"
+        android:src="@drawable/swipe_card_txt_23" 
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/txt_remind"
+        android:layout_width="@dimen/dp350"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp25"
+        android:gravity="center"
+        android:text="@string/swipe_card_hint"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp25"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

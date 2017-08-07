@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBgColor"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/tv_trans_result_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp50"
+        android:background="@drawable/h_print_receicp" />
+
+    <TextView
+        android:id="@+id/tv_trans_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="@dimen/dp20"
+        android:text="@string/bill_result_fail"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp25" />
+    <TextView
+        android:id="@+id/tv_trans_result_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="@dimen/dp15"
+        android:text="@string/bill_printing_receipt"
+        android:textColor="#7e8387"
+        android:textSize="@dimen/sp20" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp80"
+         />
+    <Button
+        android:id="@+id/btn_print_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp20"
+        android:padding="10dp"
+        android:background="@drawable/bg_corner_green"
+        android:gravity="center"
+        android:text="@string/common_print_detail"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn_result_return_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp20"
+        android:padding="10dp"
+        android:background="@drawable/bg_corner_orange"
+        android:gravity="center"
+        android:text="@string/common_sure"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

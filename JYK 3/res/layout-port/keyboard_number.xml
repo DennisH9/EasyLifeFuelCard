@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="384px"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:layout_height="@dimen/dp0"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_1" />
+
+        <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_2" />
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_3" />
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_cancel" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_4"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_4" />
+
+        <ImageView
+            android:id="@+id/iv_5"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_5" />
+
+        <ImageView
+            android:id="@+id/iv_6"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_6" />
+
+        <ImageView
+            android:id="@+id/iv_backspeace"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_bacespeace" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="@dimen/dp0"
+        android:layout_weight="2" >
+
+        <TableLayout
+            android:layout_width="@dimen/dp1"
+            android:layout_height="match_parent"
+            android:layout_span="3"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_height="@dimen/dp0"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_7"
+                    android:layout_width="@dimen/dp1"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/keyboard_7" />
+
+                <ImageView
+                    android:id="@+id/iv_8"
+                    android:layout_width="@dimen/dp1"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/keyboard_8" />
+
+                <ImageView
+                    android:id="@+id/iv_9"
+                    android:layout_width="@dimen/dp1"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/keyboard_9" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="@dimen/dp0"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/iv_star"
+                    android:layout_width="@dimen/dp1"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/keyboard_null_left" />
+
+                <ImageView
+                    android:id="@+id/iv_0"
+                    android:layout_width="@dimen/dp1"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/keyboard_0" />
+
+                <FrameLayout
+                    android:layout_width="@dimen/dp1"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/iv_dot"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/keyboard_dot"  
+                        android:visibility="gone"/>
+
+                    <ImageView
+                        android:id="@+id/iv_well"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/keyboard_null_right"/>
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/iv_enter"
+            android:layout_width="@dimen/dp1"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/keyboard_confirm" />
+    </TableRow>
+
+</TableLayout>

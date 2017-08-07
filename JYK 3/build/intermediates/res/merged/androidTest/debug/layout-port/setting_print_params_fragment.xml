@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_print_shop_info"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        	android:layout_marginTop="@dimen/setting_margin_top"
+        android:text="@string/print_shop_info" />
+
+    <TextView
+        android:id="@+id/txt_print_trans_control"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/print_trans_control" />
+
+    <TextView
+        android:id="@+id/txt_print_system_control"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/print_system_control" />
+
+    <TextView
+        android:id="@+id/txt_print_communication"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/print_communication" />
+
+    <TextView
+        android:id="@+id/txt_print_version"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/print_version" />
+
+    <TextView
+        android:id="@+id/txt_print_emv"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/print_emv" />
+
+    <TextView
+        android:id="@+id/txt_print_other"
+        style="@style/system_settings_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_height_91"
+        android:text="@string/setting_print_other" />
+
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/dp1"
+	    android:src="#d7d7d7"/>
+</LinearLayout>

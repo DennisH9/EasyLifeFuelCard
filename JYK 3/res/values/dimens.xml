@@ -1,0 +1,16 @@
+<resources>
+
+    <dimen name="width_81">1280dp</dimen>
+    <dimen name="width_91">360dp</dimen>
+ 
+	
+    <!-- 侧边栏偏移量 -->
+
+    <dimen name="setting_item_height_91">43dp</dimen>
+    <dimen name="keyboard_number_height_91">336dp</dimen>
+    <dimen name="setting_margin_top">20dp</dimen>
+    
+    
+    <!-- 登陆 -->
+    <dimen name="login_frame_RL_marging">23dp</dimen>
+</resources>

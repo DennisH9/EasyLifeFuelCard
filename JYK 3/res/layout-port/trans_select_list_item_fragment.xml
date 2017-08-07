@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_bg" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bill_bg"
+        android:stretchColumns="*" 
+        android:paddingRight="@dimen/dp7"
+        android:paddingBottom="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp16">
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/bill_merchant_name"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/txt_merchant_name"
+                android:layout_width="@dimen/dp2"
+                android:layout_height="wrap_content"
+                
+                android:textColor="#333"
+                android:textSize="@dimen/sp16" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/bill_merchant_no"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/txt_merchant_no"
+                android:layout_width="@dimen/dp2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                
+                android:textColor="#333"
+                android:textSize="@dimen/sp16" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/bill_pos_id"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/txt_pos_id"
+                android:layout_width="@dimen/dp2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                
+                android:textColor="#333"
+                android:textSize="@dimen/sp16" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginLeft="@dimen/dp7"
+                android:layout_marginRight="@dimen/dp7"
+                android:layout_span="2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bill_dividing_line" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/common_card_no"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/txt_card_no"
+                android:layout_width="@dimen/dp2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                
+                android:textColor="#333"
+                android:textSize="@dimen/sp21" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/common_voucher"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/txt_voucher"
+                android:layout_width="@dimen/dp2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                
+                android:textColor="#333"
+                android:textSize="@dimen/sp16" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/balance_transaction_type"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+                <TextView
+                    android:id="@+id/txt_trans_type"
+                    android:layout_width="@dimen/dp2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:singleLine="true"
+                    android:textColor="#333"
+                    android:textSize="@dimen/sp16" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/common_auth_code"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/txt_auth_code"
+                android:layout_width="@dimen/dp2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                
+                android:textColor="#333"
+                android:textSize="@dimen/sp16" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/bill_ref_no"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/txt_ref_no"
+                android:layout_width="@dimen/dp2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                
+                android:textColor="#333"
+                android:textSize="@dimen/sp16" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/bill_date"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="@dimen/dp2"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                
+                android:textColor="#333"
+                android:textSize="@dimen/sp16" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp1"
+                android:layout_marginLeft="@dimen/dp7"
+                android:layout_marginRight="@dimen/dp7"
+                android:layout_span="2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bill_dividing_line" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="@dimen/dp7" >
+
+            <TextView
+                android:layout_width="@dimen/dp1"
+                android:layout_height="@dimen/dp50"
+                android:gravity="top"
+                android:paddingLeft="@dimen/dp36"
+                android:text="@string/bill_money"
+                android:textColor="#8a8a8a"
+                android:textSize="@dimen/sp16" />
+
+                <TextView
+                    android:id="@+id/txt_integer"
+                    android:layout_width="@dimen/dp120"
+                android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical|right"
+                    android:layout_marginRight="@dimen/dp7"
+                    android:singleLine="true"
+                    android:text="￥9,999"
+                    android:textColor="#ee5757"
+                    android:textSize="@dimen/sp24" />
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>

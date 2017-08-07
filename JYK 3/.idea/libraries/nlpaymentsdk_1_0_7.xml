@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nlpaymentsdk-1.0.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/nlpaymentsdk-1.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

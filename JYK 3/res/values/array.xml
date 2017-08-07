@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 柜员管理 -->
+
+	<!-- 分期消费 -->
+
+
+	<!-- 交易类型 -->
+	<string-array  name="trans_type">
+	    <item>消费</item>
+	    <item>圈存-指定账户</item>
+	    <item>圈存-非指定账户</item>
+	    <item>圈存-现金圈存</item>
+	    <item>圈存撤销</item>
+	    <item>未知</item>
+	</string-array>
+	<!-- 证件类型 -->
+	<!-- 授权方式 -->
+	<!-- 国际组织代码 -->
+
+	<!-- 交易状态 -->
+</resources>

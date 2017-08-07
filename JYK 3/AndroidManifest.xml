@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newland.payment"
+    android:versionCode="2"
+    android:versionName="320002" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MANAGE_NEWLAND"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_NEWLANDUART3"/>
+    <!-- 允许程序读写系统安全敏感的设置项 -->
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />   
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> 
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ANALOG_SERIAL" />
+
+    <application
+        android:name="com.newland.payment.ui.activity.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.newland.payment.ui.activity.MainActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<action android:name="android.intent.action.NEWLAND.PAYMENT" />
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            </intent-filter>
+        </activity>
+
+         <service android:name="com.newland.payment.service.PaymentService" >
+            <intent-filter>
+				<action android:name="android.intent.action.NEWLAND.PAYMENT.SERVICE" />
+            </intent-filter>
+        </service>
+        
+        <service android:name="com.newland.payment.service.ManagerService" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEWLAND.PAYMENT.ManagerService" />
+            </intent-filter>
+        </service>
+        
+        
+        <!--<activity-->
+            <!--android:name="com.newland.scan.ScanActivity"-->
+            <!--android:label="@string/app_name" >-->
+        <!--</activity>-->
+    </application>
+
+</manifest>

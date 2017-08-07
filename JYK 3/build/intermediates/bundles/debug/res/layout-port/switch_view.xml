@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+		
+        <ImageView
+            android:id="@+id/iv_switch_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:background="@drawable/switch_off"
+            android:layout_marginLeft="@dimen/dp11"
+            android:layout_marginRight="@dimen/dp11"
+            android:scaleType="centerCrop" />
+        
+        <ImageView
+            android:id="@+id/iv_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="@dimen/dp3"
+            android:layout_marginRight="@dimen/dp3"
+            android:background="@drawable/switch_icon"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+
+</FrameLayout>

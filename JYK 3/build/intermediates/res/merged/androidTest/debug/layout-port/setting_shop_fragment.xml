@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.newland.payment.ui.view.SettingEditView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91" 
+        	android:layout_marginTop="@dimen/setting_margin_top"/>
+
+            <com.newland.payment.ui.view.SettingEditView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91" />
+
+            <com.newland.payment.ui.view.SettingEditView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91" />
+
+            <com.newland.payment.ui.view.SettingEditView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91" />
+
+            <com.newland.payment.ui.view.SettingEditView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height_91" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.newland.payment.ui.view.KeyboardNumber
+        android:id="@+id/key_board_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="gone" />
+
+</LinearLayout>

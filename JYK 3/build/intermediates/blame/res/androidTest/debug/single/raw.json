@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\systemtip.wav",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\raw\\systemtip.wav"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\longbeep.wav",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\raw\\longbeep.wav"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\shortbeep.wav",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\raw\\shortbeep.wav"
+    },
+    {
+        "merged": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\longwarning.wav",
+        "source": "D:\\workspace-as\\EasyLifeFuelCard\\JYK 3\\build\\intermediates\\bundles\\debug\\res\\raw\\longwarning.wav"
+    }
+]

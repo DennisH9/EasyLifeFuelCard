@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/setting_item_height_91"
+    android:background="@drawable/system_settings_item"
+    android:orientation="horizontal" 
+    android:gravity="right">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="@dimen/dp0"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/dp28"
+        android:singleLine="true"
+        android:textColor="#333"
+        android:textSize="@dimen/sp18"
+        android:layout_gravity="left" />
+
+	<com.newland.payment.ui.view.IpEditText
+		android:layout_width="wrap_content"
+	    android:layout_height="match_parent"/>
+</LinearLayout>

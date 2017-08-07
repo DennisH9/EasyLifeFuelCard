@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp32"
+        android:text="@string/choose_date_choose_date"
+        android:textColor="#333"
+        android:textSize="@dimen/sp17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/choose_date_next_string"
+        android:textColor="#777676"
+        android:textSize="@dimen/sp17" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp43" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp14"
+            android:layout_marginRight="@dimen/dp14"
+            android:background="@drawable/common_inputbox"
+            android:gravity="center_vertical|right"
+            android:paddingRight="50dp"
+            android:singleLine="true"
+            android:textColor="#333"
+            android:layout_marginTop="@dimen/dp10"
+            android:textSize="@dimen/sp17"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/common_date"
+            android:textColor="#333"
+            android:textSize="@dimen/sp17"/>
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/common_cancel" />
+    </RelativeLayout>
+
+    <com.newland.payment.ui.view.wheelview.DateWheelView2
+        android:id="@+id/date_wheel_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp38"
+        android:layout_marginLeft="@dimen/dp14"
+        android:layout_marginRight="@dimen/dp14"
+        android:layout_marginTop="@dimen/dp30"
+        android:background="@drawable/commom_next"
+        android:text="@string/common_next"
+        android:textColor="#fff" />
+
+</LinearLayout>

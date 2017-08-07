@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/ll_voucher_no"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingRight="18dp"
+        android:paddingLeft="18dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="凭证号"
+            android:textSize="18sp"
+            android:textColor="@color/mainColor"/>
+        <TextView
+            android:id="@+id/tv_voucher_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="14sp"
+            android:textColor="#949494"
+            android:background="@null"
+            android:clickable="false"
+            android:focusable="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="0050123" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4d7dB"
+        android:layout_below="@+id/ll_voucher_no"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingRight="18dp"
+        android:paddingLeft="18dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="金额"
+            android:textSize="18sp"
+            android:textColor="@color/mainColor"/>
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="14sp"
+            android:textColor="#949494"
+            android:background="@null"
+            android:clickable="false"
+            android:focusable="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="500.00"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4d7dB"
+        android:layout_below="@+id/ll_voucher_no"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingRight="18dp"
+        android:paddingLeft="18dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="卡号"
+            android:textSize="18sp"
+            android:textColor="@color/mainColor"/>
+
+        <TextView
+            android:id="@+id/tv_card_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="14sp"
+            android:textColor="#949494"
+            android:background="@null"
+            android:clickable="false"
+            android:focusable="false"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="请挥卡"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4d7dB"
+        android:layout_below="@+id/ll_voucher_no"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_readcard"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="请挥卡"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
